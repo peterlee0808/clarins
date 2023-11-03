@@ -673,6 +673,17 @@ footer {
 .free-container-large {
   display: none;
 }
+
+.payment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  border-top: 2px solid #cbcbcb;
+  border-bottom: 2px solid #cbcbcb;
+}
 @media screen and (min-width: 769px) {
   .service-card-medium {
     display: unset;
