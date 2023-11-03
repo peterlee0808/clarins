@@ -272,6 +272,8 @@ header {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -506,6 +508,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 .service-container {
@@ -518,11 +521,12 @@ header {
 .service-title h2 {
   color: #333333;
   font-family: "Gotham Rounded Book";
-  font-size: 35px;
+  font-size: 22px;
   line-height: 42px;
   margin: 0 24px 16px;
   text-align: center;
   padding-top: 40px;
+  letter-spacing: 0.392px;
 }
 
 .service-content {
@@ -593,6 +597,82 @@ header {
 .service-card-medium {
   display: none;
 }
+
+/* footer section */
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #e5e5e5;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 40px 10px;
+}
+.footer-advantages-hr {
+  border-top: 2px solid #cbcbcb;
+  line-height: 0;
+}
+
+.footer-advantage h2 {
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  background-color: #e5e5e5;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 22px;
+  position: absolute;
+  top: 30px;
+  left: 38%;
+}
+
+.footer-advantage-container {
+  padding: 50px 0 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.free-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.free-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(64, 83, 76);
+}
+
+.free-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.free-title {
+  line-height: 32.4px;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+
+.free-content {
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-family: "Gotham Rounded Book";
+}
+
+.free-container-large {
+  display: none;
+}
 @media screen and (min-width: 769px) {
   .service-card-medium {
     display: unset;
@@ -610,6 +690,21 @@ header {
     padding: 0;
   }
   .gray-dot-bigger {
+    display: none;
+  }
+  .free-container-large {
+    display: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-advantage-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .dot-container {
     display: none;
   }
 }
@@ -853,6 +948,19 @@ header {
   }
   .service-card-medium {
     display: none;
+  }
+  .footer-advantage h2 {
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    background-color: #e5e5e5;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 42%;
   }
 }
 
