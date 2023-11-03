@@ -299,7 +299,7 @@ header {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 70px 10px 0 10px;
+  padding: 70px 10px 20px 10px;
 }
 
 .feature-title {
@@ -315,6 +315,7 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .feature-content {
   display: inline;
   font-size: 12px;
@@ -326,6 +327,45 @@ header {
 }
 .flower {
   max-width: 100%;
+}
+
+/* 四大保證 section */
+.reassurance-section {
+  width: 100%;
+  background-color: #fbf6f3;
+}
+
+.reassurance-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.reassurance-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  gap: 10px;
+}
+
+.free-delivery-icon {
+  width: 32px;
+  aspect-ratio: 1;
+}
+.reassurance-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  line-height: 18px;
 }
 @media screen and (min-width: 1024px) {
   .header-container {
@@ -471,5 +511,21 @@ header {
   }
   .feature-flower-image {
     width: 27%;
+  }
+  .reassurance-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .reassurance-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .reassurance-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
