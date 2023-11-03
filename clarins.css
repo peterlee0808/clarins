@@ -843,6 +843,62 @@ footer {
   border: none;
   margin-top: 20px;
 }
+
+.help-container {
+  margin-top: 50px;
+}
+
+.help-title {
+  padding: 18px 25px 14px 7px;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.392px;
+  line-height: 14px;
+}
+
+.help-tel {
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-family: "Gotham Rounded Book";
+}
+
+.date {
+  font-size: 8.8px;
+  letter-spacing: 1px;
+  padding: 8px 0 0;
+  font-family: "Gotham Rounded Book";
+}
+
+.rights-container {
+  margin-top: 20px;
+}
+
+.rights-container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.privacy {
+  border-left: 1px solid black;
+  padding-left: 10px;
+}
+
+.rights-container ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.rights-container ul a {
+  display: inline-block;
+  font-family: "Gotham Rounded Book";
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+}
 @media screen and (min-width: 481px) {
   .design-container {
     width: 100%;
