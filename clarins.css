@@ -288,6 +288,45 @@ header {
   border-radius: 50%;
   background-color: #cfcac9;
 }
+
+/* 未來 section */
+.feature-section {
+  background-color: #ffffff;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 70px 10px 0 10px;
+}
+
+.feature-title {
+  color: #333333;
+  font-size: 48px;
+  font-family: "Gotham Rounded Book";
+  line-height: 52px;
+  margin: 0 80px 16px;
+  text-align: center;
+}
+
+.feature-content-container {
+  display: flex;
+  flex-direction: column;
+}
+.feature-content {
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 3.5px;
+  font-family: "Gotham Rounded Book";
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.flower {
+  max-width: 100%;
+}
 @media screen and (min-width: 1024px) {
   .header-container {
     padding: 20px 30px;
@@ -298,7 +337,6 @@ header {
   }
   .header-menu-search__icon {
     margin: 0 12px 0 24px;
-    /* padding: 20px 0; */
   }
   .right-svg-container {
     display: flex;
@@ -398,5 +436,40 @@ header {
   }
   .double11-image {
     width: calc(100% - 33.33%);
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .feature-title {
+    width: 358px;
+    padding: 0 24px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 16px;
+  }
+  .feature-title {
+    width: 36%;
+    font-family: "Gotham Rounded Book";
+    font-weight: bold;
+    text-align: left;
+  }
+  .feature-content-container {
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 24px;
+    border-left: 1px solid black;
+    height: 128px;
+  }
+  .feature-flower-image {
+    width: 27%;
   }
 }
