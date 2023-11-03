@@ -525,27 +525,108 @@ header {
   text-align: center;
   text-transform: uppercase;
 }
+
+.service-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.service-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cfcac9;
+}
+
+.service-image {
+  padding: 20px 20px;
+}
+
+.angle {
+  width: 100%;
+}
+
+.service-detail {
+  padding: 20px;
+}
+
+.service-name {
+  color: #333333;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.service-text p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  font-family: "Gotham Rounded Book";
+}
+
+.service-detail a {
+  color: #8c0b26;
+  display: inline-block;
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.service-card-large {
+  display: none;
+}
+
+.service-card-medium {
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  .service-card-medium {
+    display: unset;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cfcac9;
+  }
+  .service-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .service-image {
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .header-container {
     padding: 20px 30px;
   }
+
   .headerlogo {
     width: 201px;
     height: 44px;
   }
+
   .header-menu-search__icon {
     margin: 0 12px 0 24px;
   }
+
   .right-svg-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
+
   .header-login-section {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .header-minibag-section {
     display: flex;
     flex-direction: column;
@@ -563,6 +644,7 @@ header {
     line-height: 13.05px;
     letter-spacing: 0;
   }
+
   .login {
     display: unset;
     font-size: 9px;
@@ -572,6 +654,7 @@ header {
     line-height: 13.05px;
     letter-spacing: 0;
   }
+
   .shopping {
     display: unset;
     font-size: 9px;
@@ -591,6 +674,7 @@ header {
     line-height: 13.05px;
     letter-spacing: 0;
   }
+
   .right-svg-container {
     width: 115px;
     display: flex;
@@ -599,6 +683,7 @@ header {
     align-items: center;
     gap: 10px;
   }
+
   .nav-container {
     display: unset;
     width: 1250px;
@@ -622,19 +707,23 @@ header {
     text-transform: uppercase;
     color: black;
   }
+
   .double11-container {
     display: flex;
     flex-direction: row;
   }
+
   .double11-detail-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 33.33%;
   }
+
   .double11-image {
     width: calc(100% - 33.33%);
   }
+
   .feature-container {
     display: flex;
     flex-direction: row;
@@ -642,6 +731,7 @@ header {
     text-align: center;
     padding: 20px 10px;
   }
+
   .feature-title {
     width: 358px;
     padding: 0 24px 0 0;
@@ -651,12 +741,14 @@ header {
     align-items: flex-start;
     margin: 0 0 16px;
   }
+
   .feature-title {
     width: 36%;
     font-family: "Gotham Rounded Book";
     font-weight: bold;
     text-align: left;
   }
+
   .feature-content-container {
     width: 36%;
     display: flex;
@@ -667,42 +759,51 @@ header {
     border-left: 1px solid black;
     height: 128px;
   }
+
   .feature-flower-image {
     width: 27%;
   }
+
   .reassurance-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
   }
+
   .reassurance-card {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
+
   .reassurance-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
+
   .skin-card-container {
     display: flex;
     flex-direction: row;
     padding-bottom: 40px;
   }
+
   .fivestar-section {
     display: flex;
     flex-direction: row;
     padding: 0 30px;
   }
+
   .fivestar-container {
     width: 50%;
     height: 100%;
   }
+
   .fivestar {
     padding: 0 80px;
   }
+
   .fivestar-detail-container {
     width: 50%;
     display: flex;
@@ -711,14 +812,33 @@ header {
     align-items: center;
     text-align: center;
   }
+
   .service-title h2 {
     font-size: 48px;
     line-height: 58px;
   }
+
   .service-content {
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 4.004px;
     margin: 0 24px 12px;
+  }
+  .service-card-large {
+    display: unset;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cfcac9;
+  }
+  .service-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+    padding: 0 30px;
+  }
+  .service-card-medium {
+    display: none;
   }
 }
