@@ -124,6 +124,18 @@ table {
 }
 /* reset css */
 
+@font-face {
+  font-family: "Gotham";
+  src: url("fonts/Gotham-Bold.eot"); /* IE9 Compat Modes */
+  src: url("fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/Gotham-Bold.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Gotham-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/Gotham-Bold.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -143,6 +155,7 @@ header {
   position: sticky;
   top: 0;
 }
+
 .header-container {
   max-width: 1250px;
   margin: 0 auto;
@@ -160,12 +173,13 @@ header {
   align-content: center;
   gap: 10px;
 }
+
 .header-logo {
-  /* margin: 0 auto; */
   display: block;
   width: 100%;
   padding: 15px 15px;
 }
+
 .fa-solid.fa-bars {
   font-size: 32px;
 }
@@ -176,19 +190,104 @@ header {
   align-items: center;
   padding-right: 20px;
 }
+
 .login {
   display: none;
 }
+
 .shopping {
   display: none;
 }
+
 .flex-space-between {
   display: none;
 }
+
 .nav-container {
   display: none;
 }
 
+/* 雙11 section */
+.double11-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.double11 {
+  max-width: 100%;
+}
+
+.double11-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbf6f3;
+  padding: 24px 16px;
+}
+
+.double-date {
+  color: #333333;
+  display: inline-block;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0 0 8px;
+  padding: 6px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.double11-title {
+  color: #333333;
+  font-size: 35px;
+  font-family: "Gotham Rounded Book";
+  line-height: 39px;
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.double11-content p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Gotham Rounded Book";
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.double-link a {
+  border-radius: 2px;
+  color: #8c0b26;
+  display: inline;
+  font-family: "Gotham Rounded Book";
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dot-container {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.black-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.gray-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #cfcac9;
+}
 @media screen and (min-width: 1024px) {
   .header-container {
     padding: 20px 30px;
@@ -286,5 +385,18 @@ header {
     text-align: center;
     text-transform: uppercase;
     color: black;
+  }
+  .double11-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .double11-detail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+  }
+  .double11-image {
+    width: calc(100% - 33.33%);
   }
 }
