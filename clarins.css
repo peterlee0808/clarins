@@ -813,6 +813,36 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+.news-container h2 {
+  padding: 18px 25px 14px 7px;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.392px;
+  line-height: 14px;
+}
+
+.email {
+  width: 100%;
+  padding: 0 15px;
+  height: 44px;
+}
+
+.subscribe {
+  height: 44px;
+  width: 100%;
+  background-color: #b40024;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0 15px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+}
 @media screen and (min-width: 481px) {
   .design-container {
     width: 100%;
