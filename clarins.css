@@ -910,6 +910,7 @@ footer {
   bottom: 70px;
   right: 20px;
 }
+
 .top i {
   position: absolute;
   display: flex;
@@ -925,6 +926,7 @@ footer {
   border-radius: 50%;
   color: #ffffff;
 }
+
 @media screen and (min-width: 481px) {
   .design-container {
     width: 100%;
@@ -944,17 +946,21 @@ footer {
     flex-direction: column;
     border: 1px solid #cfcac9;
   }
+
   .service-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
   }
+
   .service-image {
     padding: 0;
   }
+
   .gray-dot-bigger {
     display: none;
   }
+
   .free-container-large {
     display: unset;
     display: flex;
@@ -962,11 +968,13 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   .footer-advantage-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
   }
+
   .dot-container {
     display: none;
   }
@@ -1195,6 +1203,7 @@ footer {
     letter-spacing: 4.004px;
     margin: 0 24px 12px;
   }
+
   .service-card-large {
     display: unset;
     width: 100%;
@@ -1202,6 +1211,7 @@ footer {
     flex-direction: column;
     border: 1px solid #cfcac9;
   }
+
   .service-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1209,9 +1219,11 @@ footer {
     gap: 30px;
     padding: 0 30px;
   }
+
   .service-card-medium {
     display: none;
   }
+
   .footer-advantage h2 {
     padding: 0;
     margin: 0 auto;
@@ -1225,6 +1237,7 @@ footer {
     top: 30px;
     left: 42%;
   }
+
   .footer-advantage-container {
     padding: 50px 0 20px 0;
     display: flex;
@@ -1234,6 +1247,7 @@ footer {
     text-align: center;
     gap: 80px;
   }
+
   .design-container {
     width: 100%;
     display: flex;
@@ -1243,6 +1257,7 @@ footer {
     gap: 150px;
     padding-top: 10px;
   }
+
   .container {
     font-size: 11px;
     letter-spacing: 1px;
