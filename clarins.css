@@ -367,6 +367,39 @@ header {
   font-size: 14px;
   line-height: 18px;
 }
+
+/* 肌膚保養 section */
+.skin-section {
+  max-width: 100%;
+  background-color: #ffffff;
+}
+
+.skin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skin-title {
+  color: #333333;
+  font-size: 85px;
+  font-family: "Gotham Rounded Book";
+  line-height: 89px;
+  margin: 70.55px 0 24px;
+  text-align: center;
+}
+
+.skin-text {
+  color: #333333;
+  font-size: 14px;
+  letter-spacing: 4.004px;
+  line-height: 26px;
+  margin: 0 0 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 1024px) {
   .header-container {
     padding: 20px 30px;
