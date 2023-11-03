@@ -400,6 +400,66 @@ header {
   text-transform: uppercase;
 }
 
+/* 五星推薦 section */
+.fivestar-section {
+  padding: 20px;
+  background-color: #fbf6f3;
+}
+
+.fivestar {
+  width: 100%;
+}
+
+.fivestar-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fivestar-proof {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3.5px;
+  color: #333;
+  padding: 30px 0 20px 0;
+}
+
+.fa-solid.fa-star {
+  color: red;
+}
+
+.fivestar-title {
+  color: #333333;
+  font-size: 35px;
+  line-height: 39px;
+  margin: 0 0 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fivestar-detail-container span {
+  display: inline;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+  font-family: "Gotham Rounded Book";
+}
+
+.button {
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #333333;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Gotham Rounded Book";
+  line-height: 42px;
+  padding: 0 15px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
 @media screen and (min-width: 1024px) {
   .header-container {
     padding: 20px 30px;
@@ -560,5 +620,25 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+  }
+  .fivestar-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+  }
+  .fivestar-container {
+    width: 50%;
+    height: 100%;
+  }
+  .fivestar {
+    padding: 0 80px;
+  }
+  .fivestar-detail-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
