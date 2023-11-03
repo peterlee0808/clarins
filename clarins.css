@@ -732,6 +732,87 @@ footer {
   padding-bottom: 30px;
 }
 
+.product-related-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #cbcbcb;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 10px;
+}
+
+.category-title {
+  font-size: 14px;
+  font-family: "Gotham Rounded Book";
+  letter-spacing: 0.392px;
+  font-weight: bold;
+  line-height: 14px;
+  padding: 18px 25px 14px 7px;
+}
+
+.plus {
+  font-size: 18px;
+  color: #b0b0b0;
+  font-family: "Gotham Rounded Book";
+  font-weight: bold;
+  letter-spacing: 0.392px;
+  line-height: 14px;
+  padding: 18px 25px 14px 7px;
+}
+
+.group-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  padding: 18px 25px 14px 7px;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.392px;
+  line-height: 14px;
+}
+
+.about-list a {
+  text-decoration: none;
+  font-size: 11px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.track-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-title {
+  padding: 18px 25px 14px 7px;
+  font-family: "Gotham Rounded Book";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.392px;
+  line-height: 14px;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.fb,
+.youtube,
+.instagram,
+.line {
+  width: 30px;
+  height: 30px;
+}
 @media screen and (min-width: 481px) {
   .design-container {
     width: 100%;
