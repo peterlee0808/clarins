@@ -400,6 +400,38 @@ header {
   text-transform: uppercase;
 }
 
+.skin-card-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0 10px;
+}
+
+.makeup-small {
+  width: 100%;
+}
+
+.skin-card {
+  padding: 20px 20px;
+}
+
+.skin-item {
+  color: #333333;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.skin-detail a {
+  color: #333333;
+  display: inline-block;
+  text-align: left;
+  font-size: 11px;
+  border-radius: 3px;
+}
 /* 五星推薦 section */
 .fivestar-section {
   padding: 20px;
@@ -459,6 +491,39 @@ header {
   text-align: center;
   text-decoration: none;
   margin-top: 20px;
+}
+
+/* 獨家服務 section */
+.service-section {
+  background-color: #ffffff;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title h2 {
+  color: #333333;
+  font-family: "Gotham Rounded Book";
+  font-size: 35px;
+  line-height: 42px;
+  margin: 0 24px 16px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.service-content {
+  color: #333333;
+  font-family: "Gotham Rounded Book";
+  font-size: 12px;
+  letter-spacing: 3.504px;
+  line-height: 24px;
+  margin: 0 24px 12px;
+  text-align: center;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
   .header-container {
@@ -621,6 +686,11 @@ header {
     justify-content: center;
     align-items: flex-start;
   }
+  .skin-card-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  }
   .fivestar-section {
     display: flex;
     flex-direction: row;
@@ -640,5 +710,15 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+  .service-title h2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .service-content {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 4.004px;
+    margin: 0 24px 12px;
   }
 }
