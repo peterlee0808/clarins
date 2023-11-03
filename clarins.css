@@ -855,3 +855,14 @@ header {
     display: none;
   }
 }
+
+.question-mark {
+  border-radius: 50%;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  color: white;
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+}
