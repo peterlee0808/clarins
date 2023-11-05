@@ -161,6 +161,11 @@ header {
   display: none;
 }
 
+.marquee-container:hover {
+  cursor: pointer;
+  color: #b40024;
+}
+
 .header-container {
   max-width: 1250px;
   margin: 0 auto;
@@ -183,6 +188,10 @@ header {
   display: block;
   width: 100%;
   padding: 15px 15px;
+}
+
+.headerlogo:hover {
+  cursor: pointer;
 }
 
 .fa-solid.fa-bars {
@@ -212,6 +221,18 @@ header {
   display: none;
 }
 
+.header-menu-burger__icon:hover,
+.header-menu-search__icon:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.i-link-no-styles a:hover {
+  cursor: pointer;
+}
+
 /* 雙11 section */
 .double11-container {
   display: flex;
@@ -220,6 +241,10 @@ header {
 
 .double11 {
   max-width: 100%;
+}
+
+.double11:hover {
+  cursor: pointer;
 }
 
 .double11-detail-container {
@@ -316,6 +341,10 @@ header {
   padding: 70px 10px 20px 10px;
 }
 
+.feature-container:hover {
+  cursor: pointer;
+}
+
 .feature-title {
   color: #333333;
   font-size: 48px;
@@ -365,6 +394,11 @@ header {
   align-items: center;
   padding: 24px 16px;
   gap: 10px;
+}
+
+.reassurance-card:hover {
+  cursor: pointer;
+  background-color: #f5efeb;
 }
 
 .free-delivery-icon {
@@ -496,6 +530,7 @@ header {
 
 .button {
   background-color: #ffffff;
+  border: 1px solid #b0a9a5;
   border-radius: 5px;
   color: #333333;
   display: inline-block;
@@ -507,6 +542,12 @@ header {
   text-align: center;
   text-decoration: none;
   margin-top: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 1px #b0a9a5;
+  transition: 0.3s ease;
 }
 
 /* 獨家服務 section */
@@ -661,9 +702,22 @@ footer {
   background-color: rgb(64, 83, 76);
 }
 
+.free-icon:hover {
+  cursor: pointer;
+}
+
 .free-detail {
   display: flex;
   flex-direction: column;
+}
+
+.free-detail:hover {
+  cursor: pointer;
+}
+
+.free-content:hover {
+  cursor: pointer;
+  color: #ce7524;
 }
 
 .free-title {
@@ -719,6 +773,10 @@ footer {
   grid-template-rows: repeat(2, 1fr);
   grid-template-rows: 1fr;
   padding-top: 10px;
+}
+
+.design-container:hover {
+  cursor: pointer;
 }
 
 .design-card {
@@ -793,6 +851,11 @@ footer {
   letter-spacing: 1px;
 }
 
+.about-list a:hover {
+  cursor: pointer;
+  color: #944c00;
+}
+
 .track-container {
   display: flex;
   flex-direction: column;
@@ -819,6 +882,13 @@ footer {
 .line {
   width: 30px;
   height: 30px;
+}
+
+.fb:hover,
+.youtube:hover,
+.instagram:hover,
+.line:hover {
+  cursor: pointer;
 }
 
 .news-container h2 {
@@ -849,6 +919,11 @@ footer {
   text-align: center;
   border: none;
   margin-top: 20px;
+}
+
+.subscribe:hover {
+  cursor: pointer;
+  background-color: #8c0b26;
 }
 
 .help-container {
@@ -887,6 +962,12 @@ footer {
   gap: 10px;
 }
 
+.use:hover,
+.privacy:hover {
+  cursor: pointer;
+  color: #b90024;
+}
+
 .privacy {
   border-left: 1px solid black;
   padding-left: 10px;
@@ -906,6 +987,7 @@ footer {
   text-decoration: none;
   color: black;
 }
+
 .question-mark {
   display: flex;
   flex-direction: row;
@@ -922,6 +1004,10 @@ footer {
   bottom: 10px;
   right: 10px;
   border: 1px solid black;
+}
+
+.question-mark:hover {
+  cursor: pointer;
 }
 
 svg {
@@ -1127,6 +1213,11 @@ svg {
     text-align: center;
     text-transform: uppercase;
     color: black;
+  }
+
+  .nav-list:hover {
+    cursor: pointer;
+    color: #ba0c2f;
   }
 
   .double11-container {
