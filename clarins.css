@@ -350,7 +350,7 @@ header {
   font-size: 48px;
   font-family: "Gotham Rounded Book";
   line-height: 52px;
-  margin: 0 80px 16px;
+  margin: 0 20px 16px;
   text-align: center;
 }
 
@@ -1246,7 +1246,7 @@ svg {
 
   .feature-title {
     width: 358px;
-    padding: 0 24px 0 0;
+    padding: 0 70px 0 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -1268,6 +1268,8 @@ svg {
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-left: 1px solid black;
     height: 128px;
   }
